@@ -1,0 +1,135 @@
+# Banking Transaction & Fraud Analytics
+
+## Overview
+
+End-to-end banking analytics project focused on transaction behavior, customer activity, regional performance, and fraudulent transaction detection.
+
+The project uses Python, Pandas, SQL and SQLite to transform raw transaction data into business insights.
+
+## Business Questions
+
+- What is the total transaction volume?
+- What is the average transaction value?
+- Which categories generate the highest transaction volume?
+- Which regions are the most active?
+- Which customers spend the most?
+- What percentage of transactions are potentially fraudulent?
+- Which categories have the highest fraud rate?
+- Which customers require additional risk monitoring?
+- Which transactions can be considered statistical anomalies?
+
+## Technologies
+
+- Python
+- Pandas
+- NumPy
+- SQL
+- SQLite
+- Matplotlib
+- Seaborn
+
+## Analysis
+
+### Transaction Analysis
+
+The project calculates:
+
+- Total transaction volume
+- Number of transactions
+- Average transaction value
+- Monthly transaction volume
+- Transaction volume by category
+- Transaction volume by region
+
+### Customer Analysis
+
+Customer behavior is analyzed using:
+
+- Total spending
+- Number of transactions
+- Average transaction amount
+- Fraudulent transaction history
+
+### Fraud Analytics
+
+The project identifies potentially suspicious transactions using:
+
+- Fraud transaction flags
+- Fraud rate
+- Fraud rate by category
+- Customer fraud history
+- Statistical anomaly detection using Z-score
+
+## Project Structure
+
+```text
+banking-transaction-analytics/
+│
+├── data/
+│   ├── customers.csv
+│   └── transactions.csv
+│
+├── sql/
+│   └── analysis.sql
+│
+├── visuals/
+│   ├── monthly_transactions.png
+│   ├── category_analysis.png
+│   ├── regional_analysis.png
+│   └── fraud_analysis.png
+│
+├── analysis.py
+├── requirements.txt
+└── README.md
+```
+
+## How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the analysis:
+
+```bash
+python analysis.py
+```
+
+The script automatically:
+
+1. Generates a synthetic banking dataset.
+2. Performs data quality checks.
+3. Calculates business KPIs.
+4. Performs customer and transaction analysis.
+5. Detects statistical anomalies.
+6. Creates visualizations.
+7. Creates an SQLite database.
+8. Executes analytical SQL queries.
+
+## Key Metrics
+
+- Transaction Volume
+- Average Transaction Value
+- Fraud Rate
+- Customer Activity
+- Regional Transaction Volume
+- Category Performance
+- Anomalous Transactions
+
+## Business Insights
+
+The analysis can help a banking team identify high-value customer segments, high-volume transaction categories, regional trends, and potentially suspicious transaction patterns.
+
+Fraud detection in this project is intended for analytical demonstration and does not represent a production fraud detection system.
+
+## Data
+
+The dataset is synthetic and generated specifically for this portfolio project.
+
+No real customer or financial data is used.
+
+## Author
+
+Data Analyst Portfolio Project
